@@ -30,10 +30,11 @@ gross_box= revenue_adults + revenue_child
 amount_kept= gross_box * 0.20
 amount_paid= gross_box * 0.80
 
-print('What you entered:')
+print(f'***Movie Sales Report***')
 print('Movie name:', movie_title)
 print('Adult tickets sold:', adult_tickets)
 print('Child tickets sold:', child_tickets)
+print(f'***Movie Financials***')
 print(f'Revenue from adult tickets: ${revenue_adults:.2f}')
 print(f'Revenue from child tickets: ${revenue_child:.2f}')
 print(f'Gross box office revenue: ${gross_box:.2f}')
